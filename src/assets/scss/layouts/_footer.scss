@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+
+  min-height: 10rem;
+  padding: 2.5rem 2rem;
+  background-color: #819ca9;
+
+  justify-content: center;
+  align-items: center;
+
+  &__link {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
+
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import "./fonts.scss";
+@import "./layouts/header";
+@import "./layouts/footer";
+
+@import "./pages/index";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", "Times New Roman", Times, serif;
+}
+
+#app {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #29434e;
+}
+
+.test {
+  color: skyblue;
+}
+
+.content {
+  display: flex;
+  flex: 1 0 auto;
+}

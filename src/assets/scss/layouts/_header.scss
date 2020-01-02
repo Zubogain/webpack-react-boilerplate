@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 5rem;
+  padding: 2.5rem 2rem;
+  background-color: #819ca9;
+
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}

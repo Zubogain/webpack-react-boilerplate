@@ -1,0 +1,50 @@
+.todo {
+  margin-top: 30px;
+  &__form {
+    &-group {
+      height: 30px;
+    }
+
+    &-input {
+      font-size: 1.6rem;
+    }
+
+    &-btn {
+      width: 45px;
+      font-size: 1.2rem;
+    }
+  }
+
+  &__list {
+    margin-top: 30px;
+
+    &-item {
+      &-text {
+        margin-bottom: 0;
+        margin-right: 30px;
+        font-size: 1.6rem;
+      }
+      &-delete {
+        width: 45px;
+        font-size: 1.6rem;
+        color: #fff !important;
+      }
+    }
+  }
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}

@@ -3,8 +3,6 @@ import React, { Component } from "react";
 import Header from "./containers/Header";
 import Footer from "./containers/Footer";
 
-import Index from "./containers/Index";
-
 class App extends Component {
   constructor(props) {
     super();
@@ -17,9 +15,7 @@ class App extends Component {
     return (
       <>
         <Header />
-        <content className="content">
-          <Index />
-        </content>
+        <main className="content bg-light">{this.props.children}</main>
         <Footer />
       </>
     );

@@ -20,7 +20,8 @@ module.exports = {
   },
   output: {
     filename: "js/[name].js",
-    path: PATH.dist
+    path: PATH.dist,
+    publicPath: "/"
   },
   plugins: [
     new CleanWebpackPlugin(),

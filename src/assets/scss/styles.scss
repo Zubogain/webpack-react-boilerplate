@@ -3,6 +3,7 @@
 @import "./layouts/footer";
 
 @import "./pages/index";
+@import "./pages/todo";
 
 * {
   box-sizing: border-box;
@@ -19,15 +20,8 @@ html {
 
   display: flex;
   flex-direction: column;
-
-  background-color: #29434e;
-}
-
-.test {
-  color: skyblue;
 }
 
 .content {
-  display: flex;
   flex: 1 0 auto;
 }

@@ -1,6 +1,6 @@
 {
-  "name": "webpack-vue-boilerplate",
-  "version": "1.0.0",
+  "name": "webpack-react-boilerplate",
+  "version": "1.1.0",
   "description": "Ready webpack template for Vue.js dev.",
   "main": "./src/js/index.js",
   "scripts": {

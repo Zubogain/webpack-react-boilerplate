@@ -1,7 +1,7 @@
 {
   "name": "webpack-react-boilerplate",
   "version": "1.1.0",
-  "description": "Ready webpack template for Vue.js dev.",
+  "description": "Ready webpack template for React dev.",
   "main": "./src/js/index.js",
   "scripts": {
     "start": "webpack-dev-server --open --config ./webpack-config/webpack.dev.js",
